@@ -1,6 +1,6 @@
 # Whirl
 
-**Whirl** — учебный проект, представляющий собой вёрстку сайта по готовому дизайн-макету из Figma: [Figma](https://www.figma.com/design/IuTcKXrTzQBzWG9a0EZTmJ/Whirl--Copy---Copy-?node-id=0-1&t=NbmCt3rutusGuVVI-1).
+**Whirl** — учебный проект, представляющий собой вёрстку сайта по готовому макету из Figma: [Figma](https://www.figma.com/design/IuTcKXrTzQBzWG9a0EZTmJ/Whirl--Copy---Copy-?node-id=0-1&t=NbmCt3rutusGuVVI-1).
 
 ## Структура проекта
 
