@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="./css/headerAndFooter.css">
+    <title>Whirl</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header_top">
+            </div>
+        </header>
+        <section class="form__section">
+            <div class="container">
+                <div class="form_inner">
+                    <div class="form_content">
+                        <h1 class="form_title tittle">Book a demo.</h1>
+                        <div class="form_main main">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                        <div class="header_companies">
+                            <ul class="companies_list">
+                                <li class="companies_iteam">
+                                    <img src="images/logos/IMAGE-1.svg" alt="" class='social_media-icon'>
+                                </li>
+                                <li class="companies_iteam">
+                                    <img src="images/logos/IMAGE-2.svg" alt="" class='social_media-icon'>
+                                </li>
+                                <li class="companies_iteam">
+                                    <img src="images/logos/IMAGE-3.svg" alt="" class='social_media-icon'>
+                                </li>
+                                <li class="companies_iteam">
+                                    <img src="images/logos/IMAGE.svg" alt="" class='social_media-icon'>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <form class="form_box" id="form1">
+                        <div class="communication_input-row">
+                            <label class="communication_input_label" for="name">
+                                First Name*
+                                <input name="name" type="text" class="communication_input"
+                                    placeholder="Enter your first name" required value="alex">
+                                <span class='error-message'></span>
+                            </label>
+                            <label class="communication_input_label" for="lastName">
+                                Last Name*
+                                <input type="text" name="lastName" class="communication_input"
+                                    placeholder="Enter your last name" required value="johnson">
+                                <span class='error-message'></span>
+                            </label>
+                            <label class="communication_input_label" for="email">
+                                Email*
+                                <input name="email" type="email" class="communication_input"
+                                    placeholder="Enter your working email" required value="alex.johnson@example.com">
+                                <span class='error-message'></span>
+                            </label>
+                        </div>
+                        <div class="communication_input-buttons">
+                            <div class="communication_actions">
+                                <button type='submit' class="communication_btn button" disabled>Send message</button>
+                            </div>
+                            <div class="checkbox-container">
+                                <input name="agreeCheckbox" type="checkbox" class="checkbox">
+                                <label class="communication_checkbox_label" for="agreeCheckbox" required>
+                                    By clicking the button above, you agree to our Terms & Conditions and Privacy
+                                    Policy.
+                                </label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class='footer'>
+        </footer>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/Form.js"></script>
+
+</html>
